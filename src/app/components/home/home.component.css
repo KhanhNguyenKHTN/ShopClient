@@ -1,0 +1,47 @@
+ .content .textBox {
+     position: relative;
+     max-width: 600px;
+ }
+ 
+ .content .textBox h2 {
+     color: #fff;
+     font-size: 3em;
+     line-height: 1.2em;
+     font-weight: 700;
+ }
+ 
+ .content .textBox p {
+     color: #fff;
+     margin-top: 20px;
+ }
+ 
+ .content .textBox a {
+     display: inline-block;
+     margin-top: 20px;
+     padding: 8px 20px;
+     background: #fff;
+     color: #333;
+     border-radius: 40px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     text-decoration: none;
+ }
+ 
+ .content .imageBox {
+     position: relative;
+     z-index: 1;
+     width: 600px;
+     display: flex;
+     justify-content: flex-end;
+     background: rgba(255, 255, 255, 0.1);
+ }
+ 
+ .content .imageBox img {
+     max-width: 400px;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+     section {
+         padding: 30px;
+     }
+ }
