@@ -1,3 +1,13 @@
 <div class="content">
-    <p>search works!</p>
+    <div class="search-page">
+        <div class="search__container">
+            <p class="search__title">
+                Tra Cứu Trạng Thái Đơn Hàng
+            </p>
+            <input class="search__input" [(ngModel)]="searchText" type="text" (keydown)="onSearch($event)" placeholder="Mã đơn hàng">
+        </div>
+        <div class="search-result">
+            <app-process-circle [percentage]="75"></app-process-circle>
+        </div>
+    </div>
 </div>

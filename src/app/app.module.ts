@@ -11,6 +11,9 @@ import { SearchComponent } from './components/search/search.component';
 import { CartComponent } from './components/cart/cart.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
+import { FormsModule } from '@angular/forms';
+import { ProcessCircleComponent } from './components/controls/process-circle/process-circle.component';
+import { ProcessOrderComponent } from './components/controls/process-order/process-order.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +25,14 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
     SearchComponent,
     CartComponent,
     LoginComponent,
-    SignUpComponent
+    SignUpComponent,
+    ProcessCircleComponent,
+    ProcessOrderComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
