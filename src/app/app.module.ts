@@ -14,6 +14,7 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { FormsModule } from '@angular/forms';
 import { ProcessCircleComponent } from './components/controls/process-circle/process-circle.component';
 import { ProcessOrderComponent } from './components/controls/process-order/process-order.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ProcessOrderComponent } from './components/controls/process-order/proce
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

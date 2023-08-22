@@ -77,10 +77,22 @@
 .search-result {
     width: 90vw;
     padding: 20px 100px;
-    overflow-y: scroll;
 }
 
 .process-card {
     width: 100px;
     height: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .search-result {
+        width: 100vw;
+        padding: 20px;
+    }
+
+    .search__container {
+        margin: 0px auto;
+        padding: 20px;
+        width: 100%;
+    }
 }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 :root {
     --header-height: 78px;
 }
@@ -18,3 +19,9 @@
     height: 100%;
     height: calc(100vh - var(--header-height));
  }
+
+ @media only screen and (max-width: 768px) {
+    .content {
+        height: auto;
+    }
+}

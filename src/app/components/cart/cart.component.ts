@@ -13,7 +13,7 @@ export class CartComponent implements OnInit {
   ngOnInit(): void {
     this.header.hideMenu = false;
     this.header.setCurrentMenu('cart');
-    this.header.setTitle('Giỏ Hàng');
+    this.header.setTitle('Đơn Hàng');
   }
 
 }
